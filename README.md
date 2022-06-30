@@ -6,13 +6,13 @@ gRPC server interceptors for [grpc-go](https://github.com/grpc/grpc-go).
 
 | interceptor | Description |
 | -----------|--------|
-| [multiinterceptor](https://github.com/mercari/go-grpc-interceptor/tree/master/multiinterceptor) | Chain multiple `UnaryServerInterceptor`s or `StreamServerInterceptor`s |
-| [panichandler](https://github.com/mercari/go-grpc-interceptor/tree/master/panichandler) | Protect a process from aborting by panic and return Internal error as status code |
-| [zap](https://github.com/mercari/go-grpc-interceptor/tree/master/zap) | Attach [zap](https://github.com/uber-go/zap) logger to each request |
-| [xrequestid](https://github.com/mercari/go-grpc-interceptor/tree/master/xrequestid) | Generate X-Request-Id to each request |
-| [acceptlang](https://github.com/mercari/go-grpc-interceptor/tree/master/acceptlang) | Parses Accept-Language from metadata |
-| [instrument](https://github.com/mercari/go-grpc-interceptor/tree/master/instrument) | Instrumentation hook |
-| [requestdump](https://github.com/mercari/go-grpc-interceptor/tree/master/requestdump) | Dump request/response messages |
+| [multiinterceptor](https://github.com/mrngsht/go-grpc-interceptor/tree/master/multiinterceptor) | Chain multiple `UnaryServerInterceptor`s or `StreamServerInterceptor`s |
+| [panichandler](https://github.com/mrngsht/go-grpc-interceptor/tree/master/panichandler) | Protect a process from aborting by panic and return Internal error as status code |
+| [zap](https://github.com/mrngsht/go-grpc-interceptor/tree/master/zap) | Attach [zap](https://github.com/uber-go/zap) logger to each request |
+| [xrequestid](https://github.com/mrngsht/go-grpc-interceptor/tree/master/xrequestid) | Generate X-Request-Id to each request |
+| [acceptlang](https://github.com/mrngsht/go-grpc-interceptor/tree/master/acceptlang) | Parses Accept-Language from metadata |
+| [instrument](https://github.com/mrngsht/go-grpc-interceptor/tree/master/instrument) | Instrumentation hook |
+| [requestdump](https://github.com/mrngsht/go-grpc-interceptor/tree/master/requestdump) | Dump request/response messages |
 
 # Committers
 

@@ -6,7 +6,7 @@ panichandler is an interceptor to protect a process from aborting by panic and r
 
 ```
 import (
-	"github.com/mercari/go-grpc-interceptor/panichandler"
+	"github.com/mrngsht/go-grpc-interceptor/panichandler"
 )
 
 func main() {

@@ -6,7 +6,7 @@ xrequestid is an grpc interceptor which receives request id from metadata and se
 
 ```golang
 import (
-	"github.com/mercari/go-grpc-interceptor/xrequestid"
+	"github.com/mrngsht/go-grpc-interceptor/xrequestid"
 	"golang.org/x/net/context"
 )
 

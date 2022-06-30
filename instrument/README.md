@@ -6,7 +6,7 @@ under development.
 
 ```golang
 import (
-	"github.com/mercari/go-grpc-interceptor/instrument"
+	"github.com/mrngsht/go-grpc-interceptor/instrument"
 )
 
 func main() {
@@ -22,7 +22,7 @@ func main() {
 
 ```golang
 import (
-	"github.com/mercari/go-grpc-interceptor/instrument/prometheus"
+	"github.com/mrngsht/go-grpc-interceptor/instrument/prometheus"
 )
 ```
 

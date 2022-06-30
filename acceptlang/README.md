@@ -7,7 +7,7 @@ acceptlang is an grpc interceptor which parses Accept-Language from metadata lik
 
 ```golang
 import (
-	"github.com/mercari/go-grpc-interceptor/acceptlang"
+	"github.com/mrngsht/go-grpc-interceptor/acceptlang"
 	"golang.org/x/net/context"
 )
 
@@ -32,7 +32,7 @@ When you send accept language via metadata, i18n interceptor parses it and set `
 ```golang
 import (
 	"github.com/nicksnyder/go-i18n/i18n"
-	grpci18n "github.com/mercari/go-grpc-interceptor/acceptlang/i18n"
+	grpci18n "github.com/mrngsht/go-grpc-interceptor/acceptlang/i18n"
 	"golang.org/x/net/context"
 )
 

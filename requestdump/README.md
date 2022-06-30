@@ -6,7 +6,7 @@ requestdump is an interceptor to log request/response messages including header/
 
 ```golang
 import (
-	"github.com/mercari/go-grpc-interceptor/requestdump"
+	"github.com/mrngsht/go-grpc-interceptor/requestdump"
 )
 
 func main() {
